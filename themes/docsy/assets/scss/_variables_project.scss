@@ -5,3 +5,20 @@ Nothing defined here. The Hugo project that uses this theme can override theme v
 assets/scss/_variables_project.scss
 
 */
+$primary: #1d1160;
+$secondary: #fff;
+$dark: #262626;
+$lighter: rgba(#1d1160, 1);
+$info: #adb5bd;
+$light: #dee2e6;
+
+$white: #fff; // background
+$black: #000;
+$navbar-dark-color: #000; // nav font default color
+$navbar-dark-hover-color: #2600ff;
+$navbar-dark-active-color: #2600ff;
+
+$link-color: darken(#2600ff, 0%) !default;
+$link-decoration: #2600ff !default;
+$link-hover-color: darken(#bf00ff, 0%) !default;
+$link-hover-decoration: none !default;
