@@ -1,9 +1,9 @@
 baseURL = "https://seunghyunhwang-lab.github.io/"
 # languageCode = "en-us"
 languageCode = "ko-kr"
-title = "SK telecom Open Source"
+title = "Financial Open Source"
 theme = ["docsy"]
-description = "Open Source Software at SK telecom"
+description = "Seunghyun hwang Open Source"
 Paginate = 20
 
 # SEO
@@ -52,7 +52,7 @@ pygmentsStyle = "tango"
 [[menu.main]]
     name = "GitHub"
     weight = 99
-    url = "https://github.com/sktelecom/"
+    url = "https://github.com/seunghyunhwang-lab"
 
 # Docsy: Configure the format of URLs per section.
 #[permalinks]
@@ -82,8 +82,8 @@ id = "UA-189808797-2"
 [languages]
 
 [languages.ko]
-title = "SKT Open Source"
-description = "Open Source Software at SK telecom" 
+title = "Financial Open Source"
+description = "Seunghyun hwang Open Source" 
 languageName ="Korean"
 time_format_default = "2006년 1일 2월"
 time_format_blog = "2006년 1일 2월"
@@ -91,8 +91,8 @@ time_format_blog = "2006년 1일 2월"
 weight = 2
 
 [languages.en]
-title = "SKT Open Source"
-description = "Open Source Software at SK telecom" 
+title = "Financial Open Source"
+description = "Seunghyun hwang Open Source" 
 languageName ="English"
 # Weight used for sorting in the language menu:
 contentDir = "content/en"
@@ -112,9 +112,9 @@ weight = 1
 [params]
 
 # GitHub repository for in-page links to editing a page and opening and issues.
-github_repo = "https://github.com/sktelecom/sktelecom.github.io"
+github_repo = "https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.github.io"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/sktelecom/sktelecom.github.io"
+github_project_repo = "https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.github.io"
 
 RSSLink = "/index.xml"
 author = "SK telecom" # add your company name
@@ -122,8 +122,8 @@ github = "sktelecom" # add your github profile name
 twitter = "sktelecom" # add your twitter profile
 email = "opensource@sktelecom.com"
 
-copyright = "SK TELECOM CO., LTD."
-privacy_policy = "https://privacy.sktelecom.com/"
+copyright = "Seunghyun Hwang CO., LTD."
+privacy_policy = "https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.github.io/"
 
 # Docsy: Google Custom Search Engine ID. Remove or comment out to disable search.
 # gcs_engine_id = "007239566369470735695:624rglujm-w"
@@ -146,30 +146,30 @@ breadcrumb_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/sktelecom/sktelecom.github.io/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/sktelecom/sktelecom.github.io/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.github.io/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.github.io/issues/new">tell us how we can improve</a>.'
 
 
 [params.links]
 # Docsy: "User" links will show on left side of footer and in the community page if you have one.
 [[params.links.user]]
 	name = "GitHub"
-	url = "https://github.com/sktelecom"
+	url = "https://github.com/seunghyunhwang-lab"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 # [[params.links.user]]
 # 	name ="Twitter"
-# 	url = "https://twitter.com/sktelecom"
+# 	url = "https://github.com/seunghyunhwang-lab"
 # 	icon = "fab fa-twitter"
 #         desc = "Follow us on Twitter to get the latest news"
 # [[params.links.user]]
 # 	name = "Instagram"
-# 	url = "https://www.instagram.com/sktelecom/"
+# 	url = "https://github.com/seunghyunhwang-lab"
 # 	icon = "fab fa-instagram"
-#         desc = "SK telecom Instagram"
+#         desc = "Seunghyun Hwang Instagram"
 [[params.links.user]]
 	name = "Mail to OSPO"
-	url = "mailto:opensource@sktelecom.com"
+	url = "mailto:hwang.sh@shinhan.com"
 	icon = "fa fa-envelope"
         desc = "Discussion and help from your fellow users"
 # [[params.links.user]]

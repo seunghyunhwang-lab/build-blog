@@ -1,9 +1,9 @@
 ---
-title: "Blog"
-linkTitle: "Blog"
-menu:
-  main:
-    weight: 70
+#title: "Insight"
+#linkTitle: "Insight"
+#menu:
+  #main:
+    #weight: 70
 ---
 
 
