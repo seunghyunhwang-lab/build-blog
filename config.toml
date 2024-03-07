@@ -117,10 +117,10 @@ github_repo = "https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.github.i
 github_project_repo = "https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.github.io"
 
 RSSLink = "/index.xml"
-author = "SK telecom" # add your company name
-github = "sktelecom" # add your github profile name
-twitter = "sktelecom" # add your twitter profile
-email = "opensource@sktelecom.com"
+author = "Seunghyun Hwang" # add your company name
+github = "Seunghyun Hwang" # add your github profile name
+twitter = "Seunghyun Hwang" # add your twitter profile
+email = "hwang.sh@shinhan.com"
 
 copyright = "Seunghyun Hwang CO., LTD."
 privacy_policy = "https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.github.io/"
