@@ -7,7 +7,7 @@ description: >
   그룹의 컴플라이언스 문서 공유합니다.
 menu:
   main:
-    weight: 35
+    weight: 70
 ---
 
 {{% alert color="warning" %}}

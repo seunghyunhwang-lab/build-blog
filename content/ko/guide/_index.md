@@ -7,7 +7,7 @@ description: >
   Open Source Guides
 menu:
   main:
-    weight: 30
+    weight: 35
 ---
 
 {{% alert title="NOTICE" color="success" %}}

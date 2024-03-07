@@ -3,7 +3,7 @@ title: "Insight"
 linkTitle: "Insight"
 menu:
   main:
-    weight: 70
+    weight: 30
 ---
 
 
