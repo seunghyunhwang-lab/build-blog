@@ -1,7 +1,7 @@
 baseURL = "https://seunghyunhwang-lab.github.io/"
 # languageCode = "en-us"
 languageCode = "ko-kr"
-title = "Financial Open Source"
+title = "Shinhan Financial Open Source"
 theme = ["docsy"]
 description = "Seunghyun hwang Open Source"
 Paginate = 20
@@ -75,7 +75,7 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # id = "UA-135379910-1"
-id = "UA-189808797-2"
+# id = "UA-189808797-2"
 
 # Docsy: Language configuration
 
@@ -127,7 +127,7 @@ privacy_policy = "https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.githu
 
 # Docsy: Google Custom Search Engine ID. Remove or comment out to disable search.
 # gcs_engine_id = "007239566369470735695:624rglujm-w"
-gcs_engine_id = "a137d95fe1def7d89"
+gcs_engine_id = "d72aa9b2712488cc3"
 
 
 # Docsy: User interface configuration
@@ -185,3 +185,8 @@ no = 'Sorry to hear that. Please <a href="https://github.com/seunghyunhwang-lab/
 #	url = "http://example.com"
 #	icon = "fab fa-envelope"
 #       desc = "A description"
+
+[params.offlineSearch]
+offlineSearch = true
+offlineSearchSummaryLength = 200
+offlineSearchMaxResults = 25
