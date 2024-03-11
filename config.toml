@@ -3,7 +3,7 @@ baseURL = "https://seunghyunhwang-lab.github.io/"
 languageCode = "ko-kr"
 title = "Shinhan Financial Open Source"
 theme = ["docsy"]
-description = "Seunghyun hwang Open Source"
+description = "Shinhan Financial Open Source"
 Paginate = 20
 
 # SEO
@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
 # Docsy: Useful when translating.
 enableMissingTranslationPlaceholders = true
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 # Docsy: Highlighting config
 pygmentsCodeFences = true
@@ -49,10 +49,10 @@ pygmentsStyle = "tango"
 #     weight = -100
 #     url = "/blog/"
 
-[[menu.main]]
-    name = "GitHub"
-    weight = 99
-    url = "https://github.com/seunghyunhwang-lab"
+# [[menu.main]]
+#    name = "GitHub"
+#    weight = 99
+#    url = "https://github.com/seunghyunhwang-lab"
 
 # Docsy: Configure the format of URLs per section.
 #[permalinks]
@@ -82,13 +82,14 @@ anchor = "smart"
 [languages]
 
 [languages.ko]
-title = "Financial Open Source"
-description = "Seunghyun hwang Open Source" 
-languageName ="Korean"
+title = "Shinhan Financial Open Source"
+languageName = "Korean"
+weight = 2
+
+[languages.ko.params]
+description = "Seunghyun hwang Open Source"
 time_format_default = "2006년 1일 2월"
 time_format_blog = "2006년 1일 2월"
-# Weight used for sorting.
-weight = 2
 
 # [languages.en]
 # title = "Financial Open Source"
@@ -127,7 +128,7 @@ privacy_policy = "https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.githu
 
 # Docsy: Google Custom Search Engine ID. Remove or comment out to disable search.
 # gcs_engine_id = "007239566369470735695:624rglujm-w"
-gcs_engine_id = "d72aa9b2712488cc3"
+# gcs_engine_id = "d72aa9b2712488cc3"
 
 
 # Docsy: User interface configuration

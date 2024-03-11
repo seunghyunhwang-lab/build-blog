@@ -1,5 +1,5 @@
 ---
-title: "Open Source Compliance Artifacts"
+title: "Open Source Compliance"
 linkTitle: "Compliance"
 weight: 35
 type: docs
