@@ -84,7 +84,7 @@ anchor = "smart"
 [languages.ko]
 title = "Shinhan Financial Open Source"
 languageName = "Korean"
-weight = 2
+weight = 1
 
 [languages.ko.params]
 description = "Seunghyun hwang Open Source"
@@ -93,13 +93,13 @@ time_format_blog = "2006년 1일 2월"
 
 # [languages.en]
 # title = "Financial Open Source"
+# languageName = "English"
+# weight = 2
+
+# [languages.en.params]
 # description = "Seunghyun hwang Open Source" 
-# languageName ="English"
-# Weight used for sorting in the language menu:
-# contentDir = "content/en"
 # time_format_blog = "Monday, January 02, 2006"
 # time_format_default = "January 2, 2006"
-# weight = 1
 
 # Below is an example of another language (Norwegian):
 #[languages.no]
