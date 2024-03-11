@@ -4,7 +4,7 @@ linkTitle: "About"
 weight: 10
 type: docs
 description: >
-  그룹의 오픈소스 거버넌스 현황
+  신한금융그룹의 오픈소스 거버넌스 현황
 menu:
   main:
     weight: 10

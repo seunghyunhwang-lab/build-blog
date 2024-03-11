@@ -9,7 +9,7 @@
     min-width: 260px;
 
     @include media-breakpoint-up(xl) {
-        display: block;}
+        display: none;}
 
     &__inner {
         padding: 32px 24px;

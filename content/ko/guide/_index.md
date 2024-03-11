@@ -11,6 +11,6 @@ menu:
 ---
 
 {{% alert title="NOTICE" color="success" %}}
-오픈소스 가이드 문서를 공유합니다.
+신한금융그룹의 오픈소스 가이드 문서를 공유합니다.
 {{% /alert %}}
 
