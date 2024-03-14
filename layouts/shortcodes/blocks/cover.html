@@ -40,6 +40,10 @@
   </div>
   {{ end }}
   <div class="td-cover-block__mouse"></div>
+  <div class="background-slideshow">
+    {{ range (.Page.Resources.Match "slide-*") }}
+    <div class="background-slide" style="background-image: url('{{ .RelPermalink }}');"></div>
+  {{ end }}
 </section>
 
 
