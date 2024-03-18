@@ -54,7 +54,7 @@ header {
         max-width: 180px;
 
         @include media-breakpoint-down(md) {
-            width: 100px;
+            width: 120px;
             height: auto;}}
 
     .nav-item {
@@ -183,7 +183,7 @@ header.mobile-menu-open .td-navbar {
     opacity: 0;
     transition: $transition;
     height: calc(100vh - 80px);
-    background: $skdarkgrey;
+    background: $white;
     padding: 30px 25px;
     overflow: auto;
 
@@ -198,7 +198,7 @@ header.mobile-menu-open .td-navbar {
         color: $white;
 
         &::placeholder {
-            color: $white;}
+            color: #0046ff;}
 
         &:focus {
             color: $black;}}
@@ -216,7 +216,7 @@ header.mobile-menu-open .td-navbar {
 
     &>ul>li>a {
         font-size: 25px;
-        color: $white;
+        color: #0046ff;
         transition: $transition;
         font-weight: $font-weight-bold;
 
