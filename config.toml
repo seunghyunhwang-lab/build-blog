@@ -125,10 +125,8 @@ email = "hwang.sh@shinhan.com"
 
 copyright = "Seunghyun Hwang CO., LTD."
 privacy_policy = "https://github.com/seunghyunhwang-lab/seunghyunhwang-lab.github.io/"
+google_custom_search_engine_id = "a14e1f8f1b40748cc"
 
-# Docsy: Google Custom Search Engine ID. Remove or comment out to disable search.
-# gcs_engine_id = "007239566369470735695:624rglujm-w"
-# gcs_engine_id = "d72aa9b2712488cc3"
 
 
 # Docsy: User interface configuration
