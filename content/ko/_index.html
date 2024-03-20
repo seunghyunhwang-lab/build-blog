@@ -44,13 +44,36 @@ title = "Open Source"
 
 
 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scroll Animation</title>
+<style>
+  /* 초기에는 숨깁니다 */
+  .section-head, .section-description {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2.5s ease, transform 2.5s ease;
+  }
+
+  /* 스크롤에 따라 나타나게 합니다 */
+  .section-head.show, .section-description.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 2.5s ease, transform 2.5s ease;
+  }
+</style>
+</head>
+<body>
 <section class="content-area">
   <div class="container">
     <div id="overview">
-      <h2 class="section-head">Open Source Projects</h2>
-      <div class="section-description">
+      <!-- 해당 부분에 class 추가 -->
+      <h2 class="section-head animate">Open Source Projects</h2>
+      <div class="section-description animate">
         <p>
-          신한금융그룹의 오픈소스 관련 프로젝트를 공개합니다.
+          신한금융그룹의 임직원들이 직접 개발에 참여하거나 기여한 오픈소스 관련 프로젝트들을 공개합니다.
         </p>
       </div>
     </div>
@@ -148,6 +171,22 @@ title = "Open Source"
     </div>
   </div>
 </section>
+<script>
+  window.addEventListener('scroll', function() {
+    var elements = document.querySelectorAll('.animate');
+    var screenPosition = window.innerHeight;
+    
+    elements.forEach(function(element) {
+      var position = element.getBoundingClientRect().top;
+      // 화면에 나타나면 클래스 추가
+      if (position < screenPosition) {
+        element.classList.add('show');
+      }
+    });
+  });
+  </script>
+  </body>
+  </html>
 <!--
 <section class="content-area content-area--line-top">
   <div class="container">
@@ -175,7 +214,12 @@ title = "Open Source"
 <section class="content-area content-area--line-top">
   <div class="container">
     <div id="additional-content">
-      <h2 class="section-head">그룹 오픈소스 관리체계</h2>
+      <h2 class="section-head animate">그룹 오픈소스 관리체계</h2>
+      <div class="section-description animate">
+        <p>
+          신한금융그룹은 국제 표준을 준수하는 그룹 오픈소스 관리체계와 임직원들을 위한 가이드를 커뮤니티에 공개합니다.
+        </p>
+      </div>
       <div class="row">
         <div class="col-md-6">
           <div class="card mb-4">
@@ -202,6 +246,7 @@ title = "Open Source"
 
   <style>
     .section-head,
+    .section-description,
     .card-title,
     .card-text {
       text-align: center;
