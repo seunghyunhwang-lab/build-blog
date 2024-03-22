@@ -32,7 +32,7 @@ pygmentsUseClassic = false
 pygmentsStyle = "tango"
 
  # Docsy: First one is picked as the Twitter card image if not set on page.
- #images = ["images/project-illustration.png"]
+ images = ["images/shinhan.png"]
 
 # Top-level navigation (horizontal)
 
