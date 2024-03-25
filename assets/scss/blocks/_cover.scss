@@ -5,10 +5,19 @@
 .td-cover-logo {
     margin-right: 0.5em;}
 
+    .td-cover-block__title {
+        color: $white; /* 제목의 색상을 흰색으로 설정 */
+    }
+    
+    .td-cover-block__description {
+        color: $white; /* 설명의 색상을 회색으로 설정 */
+        
+    }    
+
 .td-cover-block {
     position: relative;
     color: #ffffff;
-    background-color: $primary;
+    background-color: $white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,7 +31,7 @@
         height: calc(100vh - 80px);}
 
     &::before {
-        background-color: rgba(38,38,38,.3);
+        background-color: rgba(34, 34, 34, 0.3);
         content: "";
         display: block;
         position: absolute;
@@ -50,11 +59,14 @@
             font-size: 3rem;}}
 
     &__description {
+        
+
         margin: 0 auto 40px auto;
         max-width: 700px;}
 
     &__description p {
         font-weight: 300;
+        
 
         @include media-breakpoint-up(md) {
             font-size: 1.15rem;}
